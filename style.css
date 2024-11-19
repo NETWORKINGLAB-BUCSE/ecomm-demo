@@ -1,0 +1,130 @@
+/*header part*/
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+/*Navigation*/
+
+
+/*Nav bar*/
+nav{
+    background-color: #1e563b;
+	margin-top: 0;
+    padding: 1px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 15px;
+}
+nav ul li a:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 7px;
+    transition: background-color 0.7s ease;
+}
+/* hero section */
+.hero{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.hero h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.hero p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.hero button{
+    background-color: white;
+    color: red;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.hero button:hover{
+    background-color: #d8c4c4;
+    cursor: pointer;
+}
+
+/* service section */
+.service{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+.service h2{
+    color: red;
+}
+
+/*Product section*/
+.product{
+    background-color: #dcdbdb;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.product div{
+    width: 20%;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+    text-align: center;
+    /* display: inline-block; */
+}
+.product div img{
+    width: 100%;
+    height: auto;
+}
+
+.product button{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.product button:hover{
+    background-color: #d23b3b;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
